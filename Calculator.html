@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body>
+<p id="add"></p>
+<p id="sub"></p>
+<p id="mul"></p>
+<p id="divs"></p>
+<p id="mod"></p>
+<p id="pow"></p>
+<script>
+let firstnumber = prompt ( "Enter first number");
+let secondnumber= prompt ( "Enter first number");
+let opr =("Enter operator");
+
+
+document.getElementById("add").innerHTML = Number(firstnumber) + Number(secondnumber);
+document.getElementById("sub").innerHTML = firstnumber - secondnumber;
+document.getElementById("mul").innerHTML = firstnumber * secondnumber
+document.getElementById("divs").innerHTML = firstnumber / secondnumber;
+document.getElementById("pow").innerHTML = firstnumber ^ secondnumber;
+document.getElementById("mod").innerHTML = firstnumber % secondnumber;
+</script>
+</body>
+</html>
